@@ -9,8 +9,6 @@ if dict_1.get(K):
 else:
     print("Страны нет в словаре!\n")
 
-
-
 LST = sorted(dict_1.items())
 for i in range(0, len(LST)):
     dict_2.update({LST[i][0]: LST[i][1]})
